@@ -1,0 +1,8 @@
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\bin\Debug\netstandard2.0\Models.deps.json
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\bin\Debug\netstandard2.0\Models.dll
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\obj\Debug\netstandard2.0\Models.AssemblyInfoInputs.cache
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\obj\Debug\netstandard2.0\Models.AssemblyInfo.cs
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\bin\Debug\netstandard2.0\Models.pdb
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\obj\Debug\netstandard2.0\Models.csprojAssemblyReference.cache
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\obj\Debug\netstandard2.0\Models.dll
+E:\Learning\HỌC KỲ 1 NĂM 3\WebApplication3\Models\obj\Debug\netstandard2.0\Models.pdb

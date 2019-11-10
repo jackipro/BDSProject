@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebApplication3.Models.Property>
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*@{foreach (var item in Model)
+		{
+			<section>
+				<div id="card" class="text-center">
+					<img src="" alt="image" />
+					<h3>
+						<a href="#" class="text-decoration item-name">Item Name </a>
+						<p class="text-datetime"><i class="far fa-clock"></i> DateTime</p>
+					</h3>
+					<p class="text-price">Price</p>
+					<p class="item-district">
+						Dia chi
+					</p>
+				</div>
+			</section>
+		}
+
+	}*@
+<section id="product">
+	<h1>Các bất động sản hiện có</h1>
+	<div class="product-type">
+		<h3 class="product-type-name">Căn hộ và nhà riêng</h3>
+		<div class="sanpham">
+			@{ foreach (var item in Model)
+				{
+					<div id="card" class="text-center">
+						<img src="~/Images/@item.Avatar" alt="image" />
+
+						<h3>
+							<a href="#" class="text-decoration item-name">@item.PropertyName </a>
+							<p class="text-datetime"><i class="far fa-clock"></i> DateTime</p>
+						</h3>
+						<p class="text-price">@item.Price/1m</p>
+						<p class="item-district">
+							@item.Address
+						</p>
+					</div>
+				}
+			}
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+

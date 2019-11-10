@@ -1,0 +1,468 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+}
+/*Set text if any time you want
+Set đoạn text nào muốn thay đổi 
+*/
+.link-hover:hover {
+	background: #ffa500;
+	border-radius: 10px;
+}
+
+.text-decoration {
+	text-decoration: none;
+	padding: 10px;
+}
+
+.text-color_white {
+	color: white;
+}
+
+.text-hightlight {
+	color: #398fff;
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-price {
+	background: #ffa500;
+	padding: 5px;
+	margin: 10px 0px;
+	color: white;
+}
+
+.text-datetime {
+	font-size: 15px;
+	margin: 0px;
+	color: #aaa9a9;
+	max-width: 100%;
+}
+
+.text-login {
+	background: rgb(247, 65, 65);
+	border-radius: 10px;
+}
+/*Set button if any time you want
+Search button animated to get button animated
+*/
+.button {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid #4caf50;
+}
+
+	.button1:hover {
+		background-color: #4caf50;
+		color: white;
+	}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid #008cba;
+}
+
+	.button2:hover {
+		background-color: #008cba;
+		color: white;
+	}
+
+.button3 {
+	background-color: white;
+	color: black;
+	border: 2px solid #f44336;
+}
+
+	.button3:hover {
+		background-color: #f44336;
+		color: white;
+	}
+
+.button4 {
+	background-color: white;
+	color: black;
+	border: 2px solid #e7e7e7;
+}
+
+	.button4:hover {
+		background-color: #e7e7e7;
+	}
+
+.button5 {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+}
+
+	.button5:hover {
+		background-color: #555555;
+		color: white;
+	}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+/*Button Animated */
+.button-animated {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+	.button-animated span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+		.button-animated span:after {
+			content: "\00bb";
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+		}
+
+	.button-animated:hover span {
+		padding-right: 25px;
+	}
+
+		.button-animated:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
+/*Phan trang Chưa chạy đươc*/
+.btn {
+	border: none;
+	outline: none;
+	padding: 10px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	font-size: 18px;
+}
+	/* Style the active class, and buttons on mouse-over */
+	.active,
+	.btn:hover {
+		background-color: #666;
+		color: white;
+	}
+/*Navbar here*/
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	background: #1376f8;
+}
+
+	#navbar ul {
+		list-style: none;
+		justify-content: space-around;
+		max-width: 100%;
+		display: flex;
+	}
+
+		#navbar ul li {
+			margin: 0px 20px;
+		}
+
+	#navbar .link-logo {
+		max-width: 100px;
+	}
+/*Footer here*/
+#footer {
+	background: #1b1b1b;
+}
+
+	#footer .contact-logo {
+		display: flex;
+		justify-content: space-between;
+		padding: 25px;
+	}
+
+		#footer .contact-logo h4 {
+			text-align: center;
+			color: white;
+			margin: 20px;
+		}
+
+		#footer .contact-logo p {
+			margin: 20px;
+			text-align: center;
+		}
+
+	#footer .contact-media {
+		display: flex;
+	}
+
+		#footer .contact-media .link-logo-footer {
+			width: 40%;
+			text-align: center;
+			margin: 70px 0px;
+		}
+
+			#footer .contact-media .link-logo-footer h6 {
+				font-weight: lighter;
+				color: white;
+				margin: 30px;
+			}
+
+		#footer .contact-media .footer-icon {
+			color: white;
+		}
+
+			#footer .contact-media .footer-icon i {
+				color: white;
+				margin: 0px 45px;
+			}
+
+		#footer .contact-media .footer-about {
+			padding: 30px;
+			width: 60%;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+		}
+
+			#footer .contact-media .footer-about ul {
+				list-style: none;
+			}
+
+				#footer .contact-media .footer-about ul li {
+					margin: 30px;
+					font-weight: lighter;
+					font-size: 18px;
+				}
+
+			#footer .contact-media .footer-about h5 {
+				font-weight: bold;
+				font-size: 25px;
+			}
+
+	#footer .footer-author {
+		text-align: center;
+		font-size: 20px;
+		color: #f7c66c;
+	}
+/*1 thẻ item sản phẩm */
+#card {
+	border: 1px solid gray;
+	max-width: 300px;
+	box-shadow: 0 4px 8px 0 #00000033;
+	padding-bottom: 30px;
+	margin: 25px;
+}
+
+	#card img {
+		width: 100%;
+		height: 60%;
+	}
+
+	#card .item-name {
+		color: #1376f8;
+		padding: 10px;
+		font-size: 18px;
+		display: block;
+		text-align: start;
+	}
+
+	#card .item-district {
+		font-size: 16px;
+		margin: 10px;
+	}
+
+/*Khung Sản phẩm nổi bật, trong đây thể hiện 5 sản phẩm nổi bật  */
+#showcase {
+	margin: 50px;
+}
+
+	#showcase .sanphamnoibat {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	#showcase h1 {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+/*Khung các bất động sản và loại*/
+#product {
+	margin: 50px;
+	border: 1px solid #ccc;
+}
+
+	#product .sanpham {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 30px;
+		justify-content: space-around;
+	}
+
+	#product h1 {
+		font-size: 50px; 
+		text-align: center;
+		color: #f4511e;
+	}
+	.product-type{
+		margin: 50px;
+	}
+	#product .product-type .product-type-name {
+		margin-top: 20px;
+		margin-left: 20px;
+		font-size: 50px;
+		color: #f4511e;
+	}
+/*Login form */
+#form {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+	#form p {
+		font-size: 12px;
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	#form h1 {
+		font-size: 1.5em;
+		color: #525252;
+	}
+
+	#form .box {
+		background: white;
+		width: 300px;
+		border-radius: 6px;
+		margin: 0 auto 0 auto;
+		padding: 0px 0px 70px 0px;
+		border: #2980b9 4px solid;
+	}
+
+	#form .email {
+		background: #ecf0f1;
+		border: #ccc 1px solid;
+		border-bottom: #ccc 2px solid;
+		padding: 8px;
+		width: 250px;
+		color: #aaaaaa;
+		margin-top: 10px;
+		font-size: 1em;
+		border-radius: 4px;
+	}
+
+	#form .password {
+		border-radius: 4px;
+		background: #ecf0f1;
+		border: #ccc 1px solid;
+		padding: 8px;
+		width: 250px;
+		font-size: 1em;
+	}
+
+	#form .btn {
+		background: #2ecc71;
+		width: 125px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: white;
+		border-radius: 4px;
+		border: #27ae60 1px solid;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		float: left;
+		margin-left: 16px;
+		font-weight: 800;
+		font-size: 0.8em;
+	}
+
+		#form .btn:hover {
+			background: #2cc06b;
+		}
+
+	#form #btn2 {
+		float: left;
+		background: #3498db;
+		width: 125px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: white;
+		border-radius: 4px;
+		border: #2980b9 1px solid;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		font-weight: 800;
+		font-size: 0.8em;
+	}
+
+		#form #btn2:hover {
+			background: #3594d2;
+		}
+
+#slideshow {
+	background: rgb(99, 97, 97);
+	width: 100%;
+	height: 500px;
+}
+
+	#slideshow .slider-image {
+		width: 100%;
+		height: 500px;
+		background-image: url('../Images/10-du-an-bat-dong-san-hot-nhat-nam-2018-phan-1-anh-2.jpg');
+		background-size: 100% 100%;
+		animation: slider 9s infinite linear;
+	}
+
+@keyframes slider {
+	0% {
+		background-image: url('../Images/10-du-an-bat-dong-san-hot-nhat-nam-2018-phan-1-anh-2.jpg');
+	}
+
+	30% {
+		background-image: url('../Images/du-an-bds-da-nang-2017.jpg');
+	}
+
+	50% {
+		background-image: url('../Images/ig_birdview_n2.jpg');
+	}
