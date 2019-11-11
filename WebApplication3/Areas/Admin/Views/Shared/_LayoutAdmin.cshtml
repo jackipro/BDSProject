@@ -39,6 +39,13 @@
 	<link href="~/Assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap"
 		  rel="stylesheet" />
+	<style>
+		.full-contract{
+			
+			margin:0px 50px;
+		}
+
+	</style>
 </head>
 
 <body id="page-top">
@@ -48,10 +55,7 @@
 
 		<!-- Sidebar -->
 		<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-		
 			@Html.ActionLink("Quản Lý Bất Động Sản", "Index", null, new { @class = "sidebar-brand-text mx-3 sidebar-brand d-flex align-items-center justify-content-center", style="font-size: 30px; margin:50px" })
-
 
 			<!-- Heading -->
 			<div class="sidebar-heading">
@@ -61,15 +65,16 @@
 
 			<!-- Nav Item - Tables -->
 			<li class="nav-item active">
-				<div class="nav-link">
-					<i class="fas fa-fw fa-table">@Html.ActionLink("Danh sách Bất Động Sản", "Index", null, new { style = "text-decoration: none;", @class = "nav-link" })</i>
-				</div>
+				<a class="nav-link" href="@Url.Action("Index", "Product")">
+					<i class="fas fa-fw fa-table"></i>
+					<span>Danh sách Bất Động Sản</span>
+				</a>
 			</li>
 
 			<li class="nav-item active">
-				<a class="nav-link" href="tables.html">
+				<a class="nav-link" href="@Url.Action("Index", "FullContract")">
 					<i class="fas fa-fw fa-table"></i>
-					<span>Danh sách các Bất Động Sản thanh toán 1 lần</span>
+					<span>Danh sách các hợp đồng Bất Động Sản thanh toán 1 lần</span>
 				</a>
 			</li>
 			<!-- Divider -->
